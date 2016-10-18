@@ -53,7 +53,7 @@ apt-get update && apt-get upgrade -y && install -y curl wget git zip unzip unp
 
 
 AJENTI_ADDONS="apt-get install ajenti-v ajenti-v-nginx"
-AJENTI_COMMAND_INSTALL="wget -O- https://raw.github.com/ajenti/ajenti/1.x/scripts/install-debian.sh | sh"
+AJENTI_COMMAND_INSTALL="wget -O- https://raw.github.com/ajenti/ajenti/1.x/scripts/install-ubuntu.sh | sh"
 
 ###########################################################################################
 ###################### ----------> NODEJS
