@@ -11,12 +11,10 @@ A ideia surgiu a partide da vontade de criar um script que facilitaria o deploy 
  1.  Conecte-se no seu servidor via SSH
  2. Execute o comando adicinando o nome do script desejado.
 
-Comando:
-```bash
-wget -O- https://raw.githubusercontent.com/PhilippeAssis/ilovedeploy/master/[NOME DO SCRIPT].sh | sh
-```
-
-## Scripts
 
 ### Ajenti-v
-...
+```bash
+wget  https://raw.githubusercontent.com/PhilippeAssis/ilovedeploy/master/ajenti-v.sh
+chmod +x ajenti-v.sh
+./ajenti-v.sh
+```
