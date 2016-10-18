@@ -120,7 +120,7 @@ if ask "Deseja instalar o exim e o courier mail? (ajenti-v-mail)" S; then
   echo 'Ok...'
   AJENTI_ADDONS="$AJENTI_ADDONS ajenti-v-mail"
 fi
-
+AJENTI_ADDONS="$AJENTI_ADDONS && service ajenti restart"
 
 if [[ $NODE_COMAND_INSTALL != '' ]]; then
   echo ''
